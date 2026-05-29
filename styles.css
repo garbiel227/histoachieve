@@ -76,7 +76,7 @@ select {
 
 img {
   display: block;
-  max-width: 100%;
+  max-width: 90%;
 }
 
 .site-header {
@@ -229,7 +229,7 @@ img {
   border-radius: var(--radius);
   background: var(--paper-soft);
   color: var(--ink);
-  font-size: 17px;
+  font-size: 14px;
   font-weight: 700;
   line-height: 1.2;
   white-space: nowrap;
@@ -243,7 +243,7 @@ img {
   border-color: rgba(154, 45, 42, 0.52);
   background: rgba(187, 63, 60, 0.9);
   color: #fffaf5;
-  font-size: 18px;
+  font-size: 15px;
   text-shadow: 0 2px 6px rgba(79, 11, 8, 0.35);
 }
 
@@ -554,6 +554,14 @@ main {
   line-height: 1.8;
 }
 
+.work-card .author {
+  margin: 8px 0 0;
+  color: var(--red-deep);
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
 .tag-row {
   display: flex;
   flex-wrap: wrap;
@@ -745,7 +753,7 @@ main {
   }
 
   .hero {
-    width: min(100% - 32px, 1220px);
+    width: min(90% - 32px, 1220px);
     padding-top: 150px;
   }
 
