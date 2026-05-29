@@ -39,7 +39,7 @@ const works = [
     topic: "抗战新闻史",
     period: "1942-1948",
     thumb: "assets/works/2301/03-152jinchaji.jpg",
-    original: "originals/2301/03-china-women.jpg",
+    original: "originals/2301/03-152jinchaji.jpg",
     format: "image",
     author: "黄思思 华丽莹 顾晨希 高诗雅 华子今",
     summary: "通过152张摄影图片，再现战争下的晋察冀边区人民生产、生活状态。",
