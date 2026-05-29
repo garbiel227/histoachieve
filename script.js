@@ -251,7 +251,7 @@ function fullTitle(work) {
 }
 
 function textIndex(work) {
-  return [work.title, work.subtitle, work.grade, work.genre, work.medium, work.topic, work.period, work.summary, ...work.tags]
+  return [work.title, work.subtitle, work.author, work.grade, work.genre, work.medium, work.topic, work.period, work.summary, ...work.tags]
     .filter(Boolean)
     .join(" ")
     .toLowerCase();
