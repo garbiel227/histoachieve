@@ -57,7 +57,7 @@ const works = [
     thumb: "assets/works/2301/04-bajiuhuasangma.jpg",
     original: "originals/2301/04-bajiuhuasangma.jpg",
     externalUrl: "https://readymag.website/u547873550/5137852/",
-    format: "image",
+    format: "link",
     author: "刘浩志 赵艺凝 黎小漫",
     summary: "人民日报的乡土叙事一览，集结1792条人民日报“乡村振兴”标题数据。该作品曾获第四届中国新闻传播学科数据库建设及可视化大赛特等奖。",
     tags: ["数据网页", "乡村传播", "课程作品"]
@@ -121,7 +121,7 @@ const works = [
     thumb: "assets/works/2301/08-work.jpg",
     original: "originals/2301/08-work.jpg",
     format: "image",
-    author: "李思睿 ",
+    author: "李思睿 黄奕昕 黄婷婷 李章怡 杜筱旭",
     summary: "已收录图片版作品，题名、作者与主题说明可在后续整理中补充。",
     tags: ["图片作品", "妇女报刊", "2301"]
   },
