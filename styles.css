@@ -554,14 +554,6 @@ main {
   line-height: 1.8;
 }
 
-.work-card .author {
-  margin: 8px 0 0;
-  color: var(--red-deep);
-  font-size: 14px;
-  font-weight: 500;
-  letter-spacing: 0.5px;
-}
-
 .tag-row {
   display: flex;
   flex-wrap: wrap;
