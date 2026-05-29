@@ -4,12 +4,6 @@
   font-display: swap;
 }
 
-@font-face {
-  font-family: "NanbeiSong";
-  src: url("fonts/郑庆科南北词宫谱宋体_副本.ttf") format("truetype");
-  font-display: swap;
-}
-
 :root {
   color-scheme: light;
   --ink: #170f0b;
