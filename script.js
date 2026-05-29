@@ -194,7 +194,7 @@ const works = [
     grade: "硕士研究生",
     title: "做好“经师”成为“人师”",
     subtitle: "方汉奇先生与他的弟子们",
-    genre: "数据海报",
+    genre: "数据长图",
     medium: "人物",
     topic: "学者大家",
     period: "1948-2024",
