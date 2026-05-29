@@ -182,6 +182,21 @@ const works = [
     summary: "聚焦延安时期医务模范报道，呈现抗战语境中的典型人物与新闻叙事。",
     tags: ["解放日报", "延安时期", "医务模范"]
   }
+    id: "硕士研究生-01",
+    grade: "硕士研究生",
+    title: "做好“经师”成为“人师”",
+    subtitle: "方汉奇先生与他的弟子们",
+    genre: "数据海报",
+    medium: "人物",
+    topic: "学者",
+    period: "1948-2024",
+    thumb: "assets/works/硕士研究生/01-fanghanqidizi.jpeg",
+    original: "originals/硕士研究生/01-fanghanqidizi.jpeg",
+    format: "pdf",
+    author: "姚怡文 魏康乐 李柄科 王意帆 刘浩志",
+    summary: "方汉奇先生是新中国第一代新闻史学者，也是新中国新闻学重要的奠基人和开拓者。",
+    tags: ["大先生", "方汉奇", "新闻史学家"]
+  }
 ];
 
 const els = {
