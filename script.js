@@ -284,7 +284,7 @@ function renderThumb(work) {
 function renderCards(list) {
   els.resultCount.textContent = `共找到 ${list.length} 件作品`;
   if (!list.length) {
-    els.grid.innerHTML = `<article class="work-card"><div class="work-body"><h3>没有匹配作品</h3><p>换一个关键词或重置筛选试试。</p></div></article>`;
+    els.grid.innerHTML = `<article class="work-card"><div class="work-body"><h3>没有匹配作品</h3><p>换一个关键词或重置筛选试试？</p></div></article>`;
     prepareCardReveal();
     return;
   }
@@ -302,6 +302,7 @@ function renderCards(list) {
             <span>${work.period}</span>
           </div>
           <h3>${fullTitle(work)}</h3>
+          ${work.author ? `<p class="author-line">${work.author}</p>` : ""}
           <p>${work.summary}</p>
           <div class="tag-row">${work.tags.map((tag) => `<span class="tag">${tag}</span>`).join("")}</div>
           <div class="card-actions">
