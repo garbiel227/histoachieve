@@ -55,7 +55,7 @@ const works = [
     topic: "乡土叙事",
     period: "2017-2024",
     thumb: "assets/works/2301/04-bajiuhuasangma.jpg",
-    original: "assets/works/2301/04-bajiuhuasangma.jpg",
+    original: "originals/2301/04-bajiuhuasangma.jpg",
     externalUrl: "https://readymag.website/u547873550/5137852/",
     format: "image",
     author: "刘浩志 赵艺凝 黎小漫",
