@@ -10,6 +10,7 @@ const works = [
     thumb: "assets/works/2301/01-renmin-cover.jpg",
     original: "originals/2301/01-renmin-cover.pdf",
     format: "pdf",
+    author: "韦晓丽 张冰倩 谷欣遥 焦圣洁",
     summary: "以《人民日报》年度封面为线索，梳理共和国媒介记忆中的人物、议题与视觉演变。",
     tags: ["封面研究", "人物报道"]
   },
@@ -25,6 +26,7 @@ const works = [
     thumb: "assets/works/2301/02-gba-takungpao.jpg",
     original: "originals/2301/02-gba-takungpao.pdf",
     format: "pdf",
+    author: "乔文涵 武斯羽 任福琳 王艺羲 徐蕊",
     summary: "聚焦粤港澳大湾区报道，呈现关键词、交通、经贸与区域叙事中的国家凝聚力。",
     tags: ["粤港澳大湾区", "区域传播", "国家凝聚力"]
   },
@@ -39,6 +41,7 @@ const works = [
     thumb: "assets/works/2301/03-china-women.jpg",
     original: "originals/2301/03-china-women.jpg",
     format: "image",
+    author: "黄思思 华丽莹 顾晨希 高诗雅 华子今",
     summary: "通过152张摄影图片，再现战争下的晋察冀边区人民生产、生活状态。",
     tags: ["摄影", "抗战时期", "人物统计"]
   },
@@ -54,6 +57,7 @@ const works = [
     original: "assets/works/2301/04-bajiuhuasangma.jpg",
     externalUrl: "https://readymag.website/u547873550/5137852/",
     format: "link",
+    author: "刘浩志 赵艺凝 黎小漫",
     summary: "人民日报的乡土叙事一览。该作品曾获第四届中国新闻传播学科数据库建设及可视化大赛特等奖",
     tags: ["数据网页", "乡村传播", "课程作品"]
   },
@@ -68,6 +72,7 @@ const works = [
     thumb: "assets/works/2301/05-diplomacy-75.jpg",
     original: "originals/2301/05-diplomacy-75.pdf",
     format: "pdf",
+    author: "姚远 马一宁 刘梓桐 南碧",
     summary: "以新中国外交报道为对象，梳理外贸、出访、国际关系等议题的可视化脉络。",
     tags: ["外交史", "国际传播", "数据可视化"]
   },
@@ -82,6 +87,7 @@ const works = [
     thumb: "assets/works/2301/06-marriage-adverts.jpg",
     original: "originals/2301/06-marriage-adverts.pdf",
     format: "pdf",
+    author: "王梦晴 沈睿涵 王凯鑫 汪炘洁 王如冰",
     summary: "从报刊婚恋信息与社会观念的关系入手，呈现纸媒中的婚恋叙事与时代变迁。",
     tags: ["婚恋广告", "社会史", "生活方式"]
   },
@@ -96,6 +102,7 @@ const works = [
     thumb: "assets/works/2301/07-work.jpg",
     original: "originals/2301/07-work.jpg",
     format: "image",
+    author: "陈凤钰 丁奕天 严浩 张尧毓",
     summary: "已收录图片版作品，题名、作者与主题说明可在后续整理中补充。",
     tags: ["图片作品", "人民画报", "2301"]
   },
@@ -110,6 +117,7 @@ const works = [
     thumb: "assets/works/2301/08-work.jpg",
     original: "originals/2301/08-work.jpg",
     format: "image",
+    author: "张三",
     summary: "已收录图片版作品，题名、作者与主题说明可在后续整理中补充。",
     tags: ["图片作品", "妇女报刊", "2301"]
   },
@@ -124,6 +132,7 @@ const works = [
     thumb: "assets/works/2301/09-xinhuaribaotongyizhanxian.jpg",
     original: "originals/2301/09-xinhuaribao.pdf",
     format: "pdf",
+    author: "张鑫悦 穆思柠 韩敬滢 陈乐乐 王晗清",
     summary: "围绕《新华日报》展开的新闻史可视化作品，当前提供 PDF 原件入口。",
     tags: ["新华日报", "PDF作品", "报刊史"]
   },
@@ -138,13 +147,14 @@ const works = [
     thumb: "assets/works/2301/10-work.jpg",
     original: "originals/2301/10-work.jpg",
     format: "image",
+    author: "张笑雲 张婧 张冉 张少敏 张昕辰",
     summary: "已收录图片版作品，题名、作者与主题说明可在后续整理中补充。",
     tags: ["图片作品", "大国外交", "2301"]
   },
   {
     id: "2301-11",
     grade: "2301",
-    title: "西部大开发报道可视化",
+    title: "吹梦到西洲——《人民日报》对西部大开发报道的可视化分析",
     genre: "数据海报",
     medium: "人民日报",
     topic: "区域发展",
@@ -152,7 +162,8 @@ const works = [
     thumb: "assets/works/2301/11-chuimengdaoxizhou.jpg",
     original: "originals/2301/11-western-development.pdf",
     format: "pdf",
-    summary: "以西部大开发相关报道为研究对象，呈现国家战略与区域传播议题。此作品还曾获第四届新视听融合创新创意大赛入围",
+    author: "赵艺雯 张子涵 张欣彤 张钰婧",
+    summary: "以西部大开发相关报道为研究对象，呈现国家战略与区域传播议题。此作品还曾获第四届新视听融合创新创意大赛入围。",
     tags: ["西部大开发", "区域发展", "PDF作品"]
   },
   {
@@ -167,6 +178,7 @@ const works = [
     thumb: "assets/works/2301/12-jiefangribao-medical-models.jpg",
     original: "originals/2301/12-jiefangribao-medical-models.pdf",
     format: "pdf",
+    author: "张大磊 李湘 王文坛 周亦楠 钟欣燕",
     summary: "聚焦延安时期医务模范报道，呈现抗战语境中的典型人物与新闻叙事。",
     tags: ["解放日报", "延安时期", "医务模范"]
   }
