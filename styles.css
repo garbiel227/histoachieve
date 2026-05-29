@@ -138,7 +138,7 @@ img {
 }
 
 .hero {
-  width: min(1220px, calc(90% - 48px));
+  width: min(1220px, calc(100% - 48px));
   margin: 0 auto;
   padding: 210px 0 28px;
   display: grid;
@@ -267,7 +267,7 @@ img {
 }
 
 .toolbar .search-submit {
-  font-size: 26px;
+  font-size: 24px;
 }
 
 .filters {
@@ -753,7 +753,7 @@ main {
   }
 
   .hero {
-    width: min(90% - 32px, 1220px);
+    width: min(100% - 32px, 1220px);
     padding-top: 150px;
   }
 
