@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>天津师范大学新闻学系新闻史数据库</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="topbar" aria-label="主导航">
+        <a class="brand" href="#top" aria-label="返回首页">新闻史数据库</a>
+        <div class="nav-links">
+          <a href="#about">数据库介绍</a>
+          <a href="#collection">作品库</a>
+          <a href="#about">联系我们</a>
+        </div>
+      </nav>
+
+      <section class="hero" id="top">
+        <div class="hero-copy">
+          <p class="kicker">天津师范大学新闻学系</p>
+          <h1>可视化新闻史数据库</h1>
+        </div>
+
+        <div class="toolbar" aria-label="作品筛选工具">
+          <label class="search-box" aria-label="搜索作品">
+            <input id="searchInput" type="search" placeholder="输入题名、涉及报刊、关键词">
+          </label>
+          <button class="button primary search-submit" type="button">检索</button>
+          <div class="filters">
+            <label>
+              <span>制作年级</span>
+              <select id="gradeFilter"></select>
+            </label>
+            <label>
+              <span>作品类型</span>
+              <select id="genreFilter"></select>
+            </label>
+            <label>
+              <span>涉及媒体</span>
+              <select id="mediumFilter"></select>
+            </label>
+            <label>
+              <span>历史主题</span>
+              <select id="topicFilter"></select>
+            </label>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <section class="section" id="collection">
+        <div class="result-line">
+          <span id="resultCount">0</span>
+          <button class="text-button" id="resetFilters" type="button">重置筛选</button>
+        </div>
+
+        <div class="work-grid" id="workGrid" aria-live="polite"></div>
+      </section>
+
+      <section class="section class-section" id="classes">
+        <div class="section-heading">
+          <p class="eyebrow">Classes</p>
+          <h2>年级索引</h2>
+          <p>当前已上线新闻学系 2301 班作品，后续可继续接入 2401 班、2501 班等批次。</p>
+        </div>
+        <div class="class-grid" id="classGrid"></div>
+      </section>
+
+      <section class="about-section" id="about">
+        <div>
+          <p class="eyebrow">About</p>
+          <h2>关于数据库</h2>
+        </div>
+        <p>
+          本站用于展示课程作品、保存新闻史学习成果，并为后续年级作品提供统一入口。作品条目采用结构化数据维护，
+          可以持续扩展作者、指导教师、课程、关键词、原件链接与作品说明等信息。
+        </p>
+        <section class="stats-band" aria-label="数据库概览">
+          <div>
+            <strong id="totalCount">0</strong>
+            <span>件入库作品</span>
+          </div>
+          <div>
+            <strong id="gradeCount">0</strong>
+            <span>个年级批次</span>
+          </div>
+          <div>
+            <strong id="genreCount">0</strong>
+            <span>类作品体裁</span>
+          </div>
+          <div>
+            <strong>2301</strong>
+            <span>首批上线</span>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <dialog class="viewer" id="viewer">
+      <div class="viewer-panel">
+        <button class="icon-button" id="closeViewer" type="button" aria-label="关闭预览">×</button>
+        <div class="viewer-meta">
+          <p class="eyebrow" id="viewerGrade"></p>
+          <h3 id="viewerTitle"></h3>
+          <p id="viewerDesc"></p>
+          <div class="tag-row" id="viewerTags"></div>
+          <a class="button primary" id="openOriginal" href="#" target="_blank" rel="noreferrer">打开原件</a>
+        </div>
+        <div class="viewer-frame" id="viewerFrame"></div>
+      </div>
+    </dialog>
+
+    <script src="script.js"></script>
+  </body>
+</html>
