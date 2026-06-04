@@ -204,6 +204,22 @@ const works = [
     author: "姚怡文 魏康乐 李柄科 王意帆 刘浩志",
     summary: "方汉奇先生是新中国第一代新闻史学者，也是新中国新闻学重要的奠基人和开拓者。",
     tags: ["大先生", "方汉奇", "新闻史学家"]
+  },
+  { 
+    id: "ss-02",
+    grade: "2302",
+    title: "我是来杭州",
+    subtitle: "刘浩志",
+    genre: "数据网页",
+    medium: "人民日报",
+    topic: "芦荟",
+    period: "1948-2024",
+    thumb: "assets/works/硕士研究生/01-fanghanqidizi.jpeg",
+    original: "originals/硕士研究生/01-fanghanqidizi.pdf",
+    format: "pdf",
+    author: "刘浩志",
+    summary: "我爱吃米饭",
+    tags: ["大先生", "方汉奇", "新闻史学家"]
   }
 ];
 
