@@ -1,3 +1,5 @@
+const SITE_URL = "https://garbiel227.github.io/histoachieve/";
+
 const works = [
   {
     id: "2301-01",
@@ -495,6 +497,14 @@ function getWorkUrl(work) {
 }
 
 function getSharePageUrl(work) {
+  if (SITE_URL) {
+    return new URL(`share/${work.id}.html`, SITE_URL).toString();
+  }
+
+  if (window.location.protocol === "file:") {
+    return "";
+  }
+
   return new URL(`share/${work.id}.html`, window.location.href).toString();
 }
 
@@ -561,6 +571,10 @@ async function shareActiveWork() {
   if (!activeWork) return;
 
   const shareUrl = getSharePageUrl(activeWork);
+  if (!shareUrl) {
+    els.shareStatus.textContent = "请先部署到公网 HTTPS 后再分享";
+    return;
+  }
 
   try {
     if (navigator.share) {
