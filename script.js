@@ -638,8 +638,8 @@ els.reset.addEventListener("click", () => {
 });
 
 populateSelect(els.grade, "年级", unique("grade"));
-populateSelect(els.genre, "体裁", unique("genre"));
-populateSelect(els.medium, "媒介", unique("medium"));
+populateSelect(els.genre, "类型", unique("genre"));
+populateSelect(els.medium, "媒体", unique("medium"));
 populateSelect(els.topic, "主题", unique("topic"));
 updateFilterLabels();
 updateStats();

@@ -918,7 +918,7 @@ main {
   .filters span {
     left: 10px;
     right: 26px;
-    font-size: 14px;
+    font-size: 16px;
   }
 
   .filters label::after {
@@ -975,7 +975,7 @@ main {
   .filters span {
     left: 7px;
     right: 20px;
-    font-size: 12px;
+    font-size: 15px;
   }
 
   .filters label::after {
